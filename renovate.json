@@ -1,7 +1,8 @@
 {
   "extends": ["config:base"],
   "git-submodules": {
-    "enabled": true
+    "enabled": true,
+    "versioning": "git"
   },
   "postUpgradeTasks": {
     "commands": ["true"],
