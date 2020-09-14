@@ -4,6 +4,7 @@
     "enabled": true
   },
   "postUpgradeTasks": {
-    "commands": ["true"]
+    "commands": ["true"],
+    "fileFilters": [".gitmodules"]
   }
 }
